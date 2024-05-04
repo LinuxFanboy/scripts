@@ -47,8 +47,8 @@ This script automatically compresses the selected folder into a ZIP archive, nam
 ## General Instructions
 
 - **Run as Administrator:** It's recommended to run both scripts (`runner.bat` and `backup.ps1`) with administrator privileges. This ensures that the scripts have the necessary permissions to perform backup operations and modify execution policies.
-- **Change Path Values:** Replace placeholder path values ("<path-to-your-source-folder>", "<path-to-your-destination-folder>") with actual paths.
-- **Customize Backup Name:** Modify the backup name ("<backup-name>") in `backup.ps1` to suit your preferences.
+- **Change Path Values:** Replace placeholder path values ("`<path-to-your-source-folder>`", "`<path-to-your-destination-folder>`") with actual paths.
+- **Customize Backup Name:** Modify the backup name ("`<backup-name>`") in `backup.ps1` to suit your preferences.
 - **Change Script Path:** If `backup.ps1` is located in a different directory, ensure to update the path accordingly in `runner.bat`.
 - **Requirements:** Ensure you have the necessary permissions and dependencies to run these scripts effectively.
 
